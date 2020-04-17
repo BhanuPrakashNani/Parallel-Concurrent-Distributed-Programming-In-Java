@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.distributed.MpiJavaTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 40.464 sec <<< FAILURE! - in edu.coursera.distributed.MpiJavaTest
+testMatrixMultiplyRectangular1Small(edu.coursera.distributed.MpiJavaTest)  Time elapsed: 4.092 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected a speedup of at least 6.0, but saw 1.0083246618106139
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.distributed.MpiJavaTest.testDriver(MpiJavaTest.java:135)
+	at edu.coursera.distributed.MpiJavaTest.testMatrixMultiplyRectangular1Small(MpiJavaTest.java:148)
+
+testMatrixMultiplyRectangular2Small(edu.coursera.distributed.MpiJavaTest)  Time elapsed: 2.027 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected a speedup of at least 6.0, but saw 0.9844789356984479
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.distributed.MpiJavaTest.testDriver(MpiJavaTest.java:135)
+	at edu.coursera.distributed.MpiJavaTest.testMatrixMultiplyRectangular2Small(MpiJavaTest.java:152)
+
+testMatrixMultiplyRectangularLarge(edu.coursera.distributed.MpiJavaTest)  Time elapsed: 21.045 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected a speedup of at least 6.0, but saw 1.027736795514901
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.distributed.MpiJavaTest.testDriver(MpiJavaTest.java:135)
+	at edu.coursera.distributed.MpiJavaTest.testMatrixMultiplyRectangularLarge(MpiJavaTest.java:156)
+
+testMatrixMultiplySquareLarge(edu.coursera.distributed.MpiJavaTest)  Time elapsed: 10.01 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected a speedup of at least 6.0, but saw 1.0739232911934862
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.distributed.MpiJavaTest.testDriver(MpiJavaTest.java:135)
+	at edu.coursera.distributed.MpiJavaTest.testMatrixMultiplySquareLarge(MpiJavaTest.java:144)
+
+testMatrixMultiplySquareSmall(edu.coursera.distributed.MpiJavaTest)  Time elapsed: 2.74 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected a speedup of at least 6.0, but saw 0.8991228070175439
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.distributed.MpiJavaTest.testDriver(MpiJavaTest.java:135)
+	at edu.coursera.distributed.MpiJavaTest.testMatrixMultiplySquareSmall(MpiJavaTest.java:140)
+
