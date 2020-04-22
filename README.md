@@ -1,2 +1,3 @@
-# Distributed-Programming-In-Java---Programming-Assignments
-Mini projects part of the course "Distributed Programming in Java" in Coursera. 
+# Parallel Concurrent Distributed Programming in Java
+Mini projects part of the 3 course specialization "Parallel Concurrent Distributed Programming in Java
+" in Coursera. 
